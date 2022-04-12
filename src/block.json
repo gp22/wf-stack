@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wazframe/wf-stack",
+	"version": "0.1.0",
+	"title": "Layout",
+	"category": "design",
+	"icon": "smiley",
+	"description": "Every Layout components.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "wf-stack",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes": {
+		"size": {
+			"type": "string",
+			"default": "default"
+		},
+		"split": {
+			"type": "number",
+			"default": 0
+		}
+	}
+}
